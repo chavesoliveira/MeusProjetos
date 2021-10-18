@@ -349,7 +349,6 @@ span{
 
 .conteudo3alim{
     position: relative;
-    /* flex: 1; */
     font-family: "Cairo", sans-serif;
     text-align: justify;
     text-indent: 2.5em;
@@ -362,4 +361,3 @@ span{
     flex: 1;
     margin: auto 35px;
 }
-
