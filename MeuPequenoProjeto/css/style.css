@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Josefin+Sans:ital,wght@1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Dancing+Script:wght@400;700&family=Lobster&family=Rampart+One&display=swap');
 
-/*  font-family: 'Cairo', sans-serif;
+/*  
+    font-family: 'Cairo', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Acme', sans-serif;
     font-family: 'Architects Daughter', cursive;
@@ -15,7 +16,7 @@
     display: table;
     width: 100%;
     height: 200%;
-    padding: 130px 0;
+    padding: 100px 0;
     text-align: center;
     background-position: 30% 45%;
     background-color: rgb(77, 43, 43);
@@ -26,32 +27,44 @@
     position: absolute;
 }
 
-.container0{
+.bodyviva{
+    opacity: 0.12;
+    display: table;
+    width: 100%;
+    height: 200%;
+    padding: 360px 0;
+    text-align: center;
+    background-position: 30% 45%;
+    background-color: rgb(77, 43, 43);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+}
+
+.container0{ /*Domina todas as páginas*/
     display: flex;   
     box-shadow: 1px 1px 0.5px whitesmoke;
     background: lightsteelblue;
-    /* text-decoration: none !important; */
 }
 
 .title{
     position: relative;
     text-align: center;
     text-shadow: 0.3px 3px 2px whitesmoke;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Acme', sans-serif;
     font-size: 50px;
-    /* box-shadow: 1px 1px 0.5px whitesmoke; */
     flex: 1;
 }
 
 .box{
     position: relative;
     text-align: center;
-    /* text-shadow: 0.3px 3px 2px whitesmoke; */
     padding: 20px;
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
-    /* box-shadow: 1px 1px 0.5px whitesmoke; */
     flex: 1;
 }
 
@@ -70,12 +83,12 @@
     background: #2c373b;
 }
 
-.container1{
+.container1home{
     display: flex;
-    /* box-shadow: 1px 1px 0.5px whitesmoke; */
+    margin: 50px auto;
 }
 
-.conteudo1{
+.conteudo1home{
     position: relative;
     flex: 1;
     font-family: "Cairo", sans-serif;
@@ -90,16 +103,16 @@ span{
     font-weight: bold;
 }
 
-.img1{
+.img1home{
     margin: auto 35px;
 }
 
-.container2{
+.container2home{
     display: flex;
-    /* box-shadow: 1px 1px 0.5px whitesmoke; */
+    margin: 50px auto;
 }
 
-.conteudo2{
+.conteudo2home{
     position: relative;
     flex: 1;
     font-family: "Cairo", sans-serif;
@@ -110,15 +123,145 @@ span{
     line-height: 45px;
 }
 
-.img2{
+.img2home{
+    margin: auto 35px;
+}
+
+.container3home{
+    display: flex;
+    margin: 50px auto;
+}
+
+.conteudo3home{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img3home{
     margin: auto 35px;
 }
 
 .footer{
     position: relative;
     flex: 1;
-    font-family: "Cairo", sans-serif;
+    color: lightsteelblue;
     text-align: center;
-    margin: 60px 35px;
     font-size: 12px !important;
+}
+
+.container1viva{
+    display: flex;
+    margin: 50px auto;
+}
+
+.conteudo1viva{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.container2viva{
+    display: flex;
+    margin: 30px auto;
+}
+
+.h2viva{
+    position: relative;
+    text-align: left;
+    text-shadow: 0.3px 3px 2px whitesmoke;
+    padding: 15px;
+    margin-top: -65px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    flex: 1;
+}
+
+.conteudo2viva{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img2viva{
+    margin: auto 35px;
+}
+
+.container3viva{
+    display: flex;
+    margin: 30px auto;
+}
+
+.conteudo3viva{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img3viva{
+    margin: auto 35px;
+}
+
+.container4viva{
+    display: flex;
+    margin: 30px auto;
+}
+
+.conteudo4viva{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img4viva{
+    margin: auto 35px;
+}
+
+.li{
+    font-size: 20px;
+}
+
+.container5viva{
+    display: flex;
+    margin: 30px auto;
+}
+
+.conteudo5viva{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 30px 35px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img5viva{
+    margin: 10px -35px;
 }
