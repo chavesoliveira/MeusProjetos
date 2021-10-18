@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background: #eccdcd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+}
+
+.bck{
+    margin: 50px auto 0px auto;
+    width: 6em;
+}
+
+.btn{
+    text-align: center;
+    padding: 120px;
+    border-radius: 20px;
+}
+
+a:hover{
+    border-radius: 15px;
+    color: #E77276;
+    box-shadow: 0.2px 0.5px 6px #d66a6d;
+}
+
+.btnc{
+    text-align: center;
+    padding: 60px;
+}
+
+.back{
+    color: #E77276;
+    padding: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+a{
+    margin: auto 50px;
+    color: #E77276;
+    text-decoration: none;
+    padding: 1px 15px;
+}
+
+.but{
+    text-align: center;
+    color: rgb(248, 66, 66);
+    font-size: 0.4em;
+    margin-top: 85px;
+    text-shadow: 1px 2px #f9d8fa;
+}
+
+.title{
+    text-align: center;
+    color: #E77276;
+}
+
+.cont{
+    text-align: center;
+    color: #E77276;
+    margin: auto 25px;
+}
+
+.img{
+    margin-top: -50px;
+}
+
+.p{
+    text-align: center;
+    color: #E77276;
+    margin: 80px 25px;
+}
+
+.lefth{
+    text-align: left;
+}
+
+.list{
+    margin: auto 200px;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+}
+
+.maker{
+    margin: 1px 25px 0px 25px;
+    border: none 3px #d66a6d;
+    flex: 1;
+}
+
+.makert{
+    flex: 1;
+    text-align: justify;
+    margin: 60px 35px auto -55px;
+    font-size: 26px !important;
+}
