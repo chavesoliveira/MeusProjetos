@@ -43,12 +43,28 @@
     position: absolute;
 }
 
-.bodyalimento{
+.bodyalim{
     opacity: 0.12;
     display: table;
     width: 100%;
     height: 200%;
     padding: 300px 0;
+    text-align: center;
+    background-position: 30% 45%;
+    background-color: rgb(77, 43, 43);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+}
+
+.bodyexer{
+    opacity: 0.12;
+    display: table;
+    width: 100%;
+    height: 200%;
+    padding: 600px 0;
     text-align: center;
     background-position: 30% 45%;
     background-color: rgb(77, 43, 43);
@@ -360,4 +376,96 @@ span{
 .img3alim{
     flex: 1;
     margin: auto 35px;
+}
+
+.h2exer{
+    position: relative;
+    flex: 1;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 50px auto;
+    text-shadow: 1px 1px 3px rgb(183 227 241);
+}
+
+.container2exer{
+    display: flex;
+    margin: 50px auto;
+}
+
+.conteudo2exer{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 60px 10px 60px 45px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img2exer{
+    flex: 1;
+    margin: auto 35px;
+    text-align: center;
+}
+
+/* .container2exer{
+    display: flex;
+    margin: 50px auto;
+} */
+
+.conteudo3exer{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 60px 45px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.container4exer{
+    display: flex;
+    margin: 50px auto;
+}
+
+.conteudo4exer{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 60px -50px 60px 45px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img4exer{
+    flex: 1;
+    margin: auto 70px auto 0px;
+    text-align: center;
+}
+
+.container5exer{
+    display: flex;
+    margin: 50px auto;
+}
+
+.conteudo5exer{
+    position: relative;
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 45px 50px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.img5exer{
+    flex: 1;
+    margin: auto 15px;
+    text-align: center;
 }
