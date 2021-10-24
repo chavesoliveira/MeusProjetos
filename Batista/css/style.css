@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Josefin+Sans:ital,wght@1,300;1,400&display=swap');
 
 /* 
+    font-family: 'Cairo', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif; 
 */
+
+body{
+    background: whitesmoke;
+}
 
 .bodyimg{
     opacity: 0.12;
@@ -30,7 +36,6 @@
 
 .img{
     flex: 0;
-    /* margin-left: 30px; */
 }
 
 .titlep{
@@ -54,7 +59,7 @@
     text-shadow: 1px 2px 6px whitesmoke;            
 }
 
-.conteudo{
+.folder2{
     flex: 1;
 }
 
@@ -65,4 +70,68 @@
     margin: auto;
     padding: 15px 10px 45px 10px;
     background: #585534;
+    text-shadow: 2px 2px 5px white;
+}
+
+.conteudo{
+    flex: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 5px 50px;
+    font-size: 20px !important;
+    line-height: 45px;
+}
+
+.subtitle2{
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.conteudobtn{
+    text-align: center;
+    padding: 3rem;
+}
+
+.btn{
+    flex: 1;
+    border: 1.5px solid black;
+    border-radius: 15px 50px;
+    cursor:  pointer;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+    background: #a39e68;
+}
+
+.btn:hover{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.marcas{
+    font-weight: bold;
+    color: black;
+}
+
+.marcar{
+    font-weight: bolder;
+    color: black;
+}
+
+.footer{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    background: #585534;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
 }
