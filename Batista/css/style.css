@@ -29,7 +29,7 @@ body{
 
 .folder{
     display: flex;
-    background-image: linear-gradient( to bottom, #181814, #2E2C1D, #585534);
+    background-image: linear-gradient( to bottom, #58584b, #746f4a, #918c57);
     background-repeat: no-repeat;
     min-height: 100%;
 }
@@ -69,7 +69,7 @@ body{
     font-size: 20px;
     margin: auto;
     padding: 15px 10px 45px 10px;
-    background: #585534;
+    background: #918c57;
     text-shadow: 2px 2px 5px white;
 }
 
@@ -98,7 +98,7 @@ body{
 
 .btn{
     flex: 1;
-    border: 1.5px solid black;
+    border: 1px solid black;
     border-radius: 15px 50px;
     cursor:  pointer;
     padding: 10px;
@@ -107,7 +107,8 @@ body{
     margin: 0 50px;
     text-decoration: none;
     color: black;
-    background: #a39e68;
+    /* background: #c2bd75; */
+    background-image: linear-gradient( to right, #a0a08c, #b6ae73, #e4dc8b);
 }
 
 .btn:hover{
@@ -124,6 +125,10 @@ body{
     font-weight: bolder;
     color: black;
 }
+
+.li{
+    margin-left: 35px;
+} 
 
 .footer{
     flex: 1;
