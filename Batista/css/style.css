@@ -29,7 +29,7 @@ body{
 
 .folder{
     display: flex;
-    background-image: linear-gradient( to bottom, #58584b, #746f4a, #918c57);
+    background-image: linear-gradient( to bottom, #757565, #928c5d, #b6b06e);
     background-repeat: no-repeat;
     min-height: 100%;
 }
@@ -69,7 +69,7 @@ body{
     font-size: 20px;
     margin: auto;
     padding: 15px 10px 45px 10px;
-    background: #918c57;
+    background: #b6b06e;
     text-shadow: 2px 2px 5px white;
 }
 
