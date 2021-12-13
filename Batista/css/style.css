@@ -67,9 +67,9 @@ body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin: auto;
+    margin: -85px;
     padding: 15px 10px 45px 10px;
-    background: #b6b06e;
+    /* background: #b6b06e; */
     text-shadow: 2px 2px 5px white;
 }
 
@@ -99,7 +99,7 @@ body{
 .btn{
     flex: 1;
     border: 1px solid black;
-    border-radius: 15px 50px;
+    border-radius: 25px;
     cursor:  pointer;
     padding: 10px;
     width: 100px;
